@@ -1,0 +1,179 @@
+.regi .s1{
+    text-align: center;
+    font-style:italic;
+    font-size: 20px;
+    
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/896/106/567/snow-weapons-ship-ice-wallpaper-preview.jpg");
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+   
+}
+.regi h1{
+    margin:0px;
+    font-size: 100px;
+    color: #c0d4d9;
+}
+.regi .create{
+    margin: 0px 0px 0px 910px;
+    display: inline-flex;
+    /* border: 2px solid blue; */
+}
+ .regi label{
+    font-size: larger;
+}
+.regi input[type=text], input[type=password] ,input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size:larger;
+  }
+  .regi button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    color:blue;
+    text-align: center;
+    height:50px;
+  }
+  .regi button:hover {
+    opacity: 0.8;
+  }
+  .regi form {
+    border: 6px solid #2392bb0f;;
+    background-color: rgb(15 133 136 / 29%);
+    text-align: left;
+  }
+  .regi #s3{
+    background-color:greenyellow;
+    color: white;
+    padding: 12px 20px;
+    width:50%;
+    margin:0px;
+    
+  }
+  .regi .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+
+  @media (max-width:1350px){
+    .regi .s1 {
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/896/106/567/snow-weapons-ship-ice-wallpaper-preview.jpg");
+        background-size: cover;
+        width: 3000px;
+    }
+    .regi .create{
+        margin: 0px 0px 0px 510px;
+        display: inline-flex;
+      
+    }
+    .regi h1{
+        margin:0px 0px 0px 0px ;
+        font-size: 100px;
+        color: #c0d4d9;
+    }
+
+  }
+  @media (max-width:800px){
+    .regi .s1 {
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/896/106/567/snow-weapons-ship-ice-wallpaper-preview.jpg");
+        height: 1500px;
+        background-size: cover;
+        width: 3000px;
+    }
+    .regi .create{
+        margin: 0px 0px 0px 210px;
+        display: inline-flex;
+      
+    }
+    .regi h1{
+        margin:0px 0px 0px 0px ;
+        font-size: 100px;
+        color: #c0d4d9;
+    }
+
+  }
+  @media (max-width:500px){
+    .regi.s1 {
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/896/106/567/snow-weapons-ship-ice-wallpaper-preview.jpg");
+        background-size: cover;
+        width: 3000px;
+    }
+    .regi .create{
+        margin: 0px 0px 0px 0px;
+        display: inline-flex;
+       
+    }
+    .regi h1{
+        margin:0px 800px 0px 0px ;
+        font-size: 100px;
+        color: #c0d4d9;
+    }
+
+  }
+  @media (max-width:400px){
+    .regi .s1{
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/896/106/567/snow-weapons-ship-ice-wallpaper-preview.jpg");
+        height:1500px;
+        background-size: cover;
+        width: 3000px;
+    }
+    .regi .create{
+        margin: 0px 800px 0px 0px;
+        display: inline-flex;
+       
+    }
+    .regi h1{
+        margin:0px 1000px 0px 0px ;
+        font-size: 100px;
+        color: #c0d4d9;
+    }
+}
+    @media (max-width:300px){
+        .regi .s1{
+            background-image: url("https://c4.wallpaperflare.com/wallpaper/896/106/567/snow-weapons-ship-ice-wallpaper-preview.jpg");
+            height:1500px;
+            background-size: cover;
+            width: 3000px;
+        }
+        .regi .create{
+            margin: 0px 2000px 0px 0px;
+            display: inline-flex;
+           
+        }
+        .regi h1{
+            margin:0px 1500px 0px 0px ;
+            font-size: 100px;
+            color: #c0d4d9;
+        }
+
+  }
+  @media (max-width:220px){
+    .regi .s1{
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/896/106/567/snow-weapons-ship-ice-wallpaper-preview.jpg");
+        height:1500px;
+        background-size: cover;
+        width: 3000px;
+    }
+    .regi .create{
+        margin: 0px 2300px 0px 0px;
+        display: inline-flex;
+       
+    }
+    .regi h1{
+        margin:0px 2000px 0px 0px ;
+        font-size: 100px;
+        color: #c0d4d9;
+    }
+
+} 

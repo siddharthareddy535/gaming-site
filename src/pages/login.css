@@ -1,0 +1,172 @@
+.logic .background{
+    margin:0px;
+   
+}
+.logic #ved{
+    margin:0px;
+    width: 1903px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.logic *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.logic section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.logic .form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.logic h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.logic .inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.logic .inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+     transform: translateY(-50%); 
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+.logic input:focus ~ label{
+    top:-5px;
+}
+.logic input:valid ~label{
+top: -5px;
+}
+.logic input:valid ~label{
+    top:-5px
+}
+.logic .inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+.logic .inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.logic .forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.logic .forget label input{
+    margin-right: 3px;
+    
+}
+.logic .forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.logic .forget label a:hover{
+    text-decoration: underline;
+}
+.logic button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.logic .register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.logic .register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.logic .register p a:hover{
+    text-decoration: underline;
+}
+.logic .loginform{
+    position: absolute;
+    left:1200px;
+    top:100px;
+    /* yanimation: slideMe 12.5s ease-in; */
+}
+/* @keyframes slideMe{
+    0%{
+        transform:skewX(0deg) translateX(-100px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+} */
+.logic .head{
+    font-style: italic;
+    font-size:35px;
+    position: absolute;
+    top:0;
+    left:800px;
+    color: #c0db56ad;
+    /* animation: slide 12.5s ease-in; */
+}
+/* @keyframes slide{
+    0%{
+        transform:skewX(0deg) translateX(100px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+} */
+.logic .logo{
+    border-radius: 50%;
+    position: absolute;
+    top:300px;
+    left:300px;
+    /* animation:slidel 12.5s ease-in; */
+}
+/* @keyframes slidel{
+    0%{
+        transform:skewX(0deg) translateY(100px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+} */
